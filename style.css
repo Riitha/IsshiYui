@@ -1,0 +1,10 @@
+.body {
+    margin: 0%;
+}
+.text-tengah  {
+  text-align: center;
+}
+.text-tengah img {
+    margin: 0 auto;
+    width: 240px;
+}
