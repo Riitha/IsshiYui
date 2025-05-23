@@ -137,3 +137,11 @@
 #deskripsi-singkat {
     background-color: #435585;
 }
+.career-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content-career img {
+    width: 120px;
+}
