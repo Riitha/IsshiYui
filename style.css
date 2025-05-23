@@ -1,12 +1,30 @@
+/* base */
 @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-decoration: none;  
+    text-decoration: none;
 }
+body {
+    background-color: #E195AB;
+}
+.text-tengah  {
+  text-align: center;
+}
+.text-tengah img {
+    margin: 0 auto;
+    width: 240px;
+}
+.title-page {
+    text-align: center;
+    font-size: 20px;
+    font-family:"Roboto Flex", sans-serif;
+}
+/* navigasi */
 .fcontainer {
     display: flex;
+    margin: 0;
 }
 .wrapper {
     display: flex;
@@ -17,8 +35,7 @@
     width: 100%;
     height: 80px;
     color: black;
-    background-color: #2e5077;
-    margin-bottom: 25px;
+    background-color: #6886C5;
 }
 .logoweb {
     margin-left:20px;
@@ -53,24 +70,31 @@
     color: whitesmoke;
     transition: all 0.3s ease-in-out
 }
+#bio-singkat {
+    background-image: linear-gradient(180deg, #E195AB, #F2F9FF);
+}
+/* banner */
+.header {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.header img {
+    width: 100%;
+    object-fit: cover;
+}
+/* judul */
 .judul {
     text-align: center;
     letter-spacing: 2px;
-    color: #2e5077;
+    color: #6886C5;
     font-family: 'Kosugi Maru', sans-serif;
     padding-top: 10px;
 
 }
+/* biodata */
 .border-profile {
     padding-top: 10px;
     padding-bottom: 10px;
-}
-.text-tengah  {
-  text-align: center;
-}
-.text-tengah img {
-    margin: 0 auto;
-    width: 240px;
 }
 .bio-flex {
     display:flex;
@@ -94,13 +118,16 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: whitesmoke;
-    padding: 10px 16px;
-    border-left: #239ab3 5px solid;
-    gap: 10px;
+    margin: 10px 16px;
+    border-left: #239ab3 2px solid;
     width: 360px;
     text-align: left;
     font-family: 'Kosugi Maru', sans-serif;
+    font-weight: bold;
+    color: #6886C5;
+    text-shadow: 1px 1px 1px white;
+    opacity: 0.8;
+    padding: 10px;
 }
 .fa-solid fa-microphone-lines {
     font-size: 40px;
@@ -133,20 +160,76 @@
     border-radius: 50px;
     padding-bottom: 20px;
 }
-#bio-singkat {
-    background-image: linear-gradient(180deg, #E195AB, #F2F9FF);
-}
 #deskripsi-singkat {
     background-image: linear-gradient(180deg, #F2F9FF, #F2F9FF);
+}
+/* bagian karier */
+.karier {
+    background-image: linear-gradient(180deg, #F2F9FF, #F2F9FF);
+}
+.karier h2 {
+    text-align: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    margin-bottom: 10px;
 }
 .career-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+}
+.content-career {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
 }
 .content-career img {
     width: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+.content-career h2 {
+    text-align: center;
+    margin-top:20px;
+}
+.content-career p {
+    font-family: "Kosugi Maru", sans-serif;
+}
+/* bagian penghargaan */
+.jiseki {
+    background-image: linear-gradient(180deg, #F2F9FF, #F2F9FF);
+}
+.jiseki-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.content-jiseki{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.content-jiseki img {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* bagian role */
 .sakuhin-wrapper {
     display: flex;
     flex-direction: row;
