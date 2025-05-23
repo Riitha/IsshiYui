@@ -248,3 +248,19 @@ body {
     color: #EAEFEF;
     background-color: #333446;
 }
+#filmography {
+    height: 300px;
+    background-image: linear-gradient(180deg, #F2F9FF, #E195AB);
+}
+#contact {
+    display: flex;
+    flex-direction: row;
+    background-color: #6886C5;
+    color: white;
+    font-family: "Roboto Flex", sans-serif;
+}
+.socialMedia a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
