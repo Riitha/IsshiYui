@@ -20,6 +20,7 @@ body {
     text-align: center;
     font-size: 20px;
     font-family:"Roboto Flex", sans-serif;
+    color: #6886C5;
 }
 /* navigasi */
 .fcontainer {
@@ -92,10 +93,6 @@ body {
 
 }
 /* biodata */
-.border-profile {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 .bio-flex {
     display:flex;
     align-items: center;
@@ -202,6 +199,9 @@ body {
 .content-career p {
     font-family: "Kosugi Maru", sans-serif;
 }
+.content-career a {
+    color: #E195AB;
+}
 /* bagian penghargaan */
 .jiseki {
     background-image: linear-gradient(180deg, #F2F9FF, #F2F9FF);
@@ -224,10 +224,14 @@ body {
     gap: 10px;
 }
 .content-jiseki img {
-    width: 500px;
+    width: 320px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-radius: 5%;
+}
+.content-jiseki h2, p{
+    color:#6886C5
 }
 /* bagian role */
 .sakuhin-wrapper {
@@ -235,7 +239,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px
 }
 .sakuhin-content img {
@@ -249,18 +253,38 @@ body {
     background-color: #333446;
 }
 #filmography {
-    height: 300px;
+    height: 400px;
     background-image: linear-gradient(180deg, #F2F9FF, #E195AB);
 }
-#contact {
-    display: flex;
-    flex-direction: row;
+/* footer */
+.footer {
     background-color: #6886C5;
     color: white;
-    font-family: "Roboto Flex", sans-serif;
+    height: 180px;
+    padding:10px;
 }
-.socialMedia a {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.footer-logo img{
+    width: 180px;
+    float: left;
+}
+.footer-list {
+    float: right;
+    margin-right: 10px;
+}
+.footer-list li {
+    font-size: 14px;
+    padding-bottom:20px;
+    text-decoration: none;
+    list-style: none;
+    width: 240px;
+}
+.footer-list p {
+    color: #eef5ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    cursor:default;
+}
+.footer-list i {
+    color: #eef5ff;
+    font-size: 30px;
 }
